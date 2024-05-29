@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Display a message when the image is clicked
   function showMessage1() {
     const message = document.createElement('p');
-    message.textContent = 'Keep looking for secrets. They bring power.';
+    message.textContent = 'Keep looking for Secrets. They bring power.';
     document.body.appendChild(message);
     document.querySelector('.image').removeEventListener('click', showMessage1);
   }
